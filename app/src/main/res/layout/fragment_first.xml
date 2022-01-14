@@ -10,11 +10,21 @@
         android:id="@+id/textview_first"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/hello_first_fragment"
+        android:text="FIERCE 5 PROGRAM"
+        android:textSize="20sp"
         app:layout_constraintBottom_toTopOf="@id/button_first"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    /*The below instance creates the main logo page for the app.
+    (Bodybuilding Forum's Logo to be precise.)*/
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="425dp"
+        android:layout_height="170dp"
+        android:src="@drawable/bodybuilding_forum_logo"/>
 
     <Button
         android:id="@+id/button_first"
