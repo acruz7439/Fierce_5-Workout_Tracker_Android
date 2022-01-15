@@ -29,6 +29,8 @@ class SecondFragment : Fragment() {
 
     }
 
+    /* THE BELOW CODE IS FOR A BUTTON THAT WAS REMOVED*/
+/*
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
@@ -36,7 +38,7 @@ class SecondFragment : Fragment() {
             findNavController().navigate(R.id.action_SecondFragment_to_FirstFragment)
         }
     }
-
+*/
     override fun onDestroyView() {
         super.onDestroyView()
         _binding = null
