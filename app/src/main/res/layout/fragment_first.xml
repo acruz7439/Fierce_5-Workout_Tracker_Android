@@ -17,15 +17,20 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
+/**********************************************************/
     /*The below instance creates the main logo page for the app.
     (Bodybuilding Forum's Logo to be precise.)*/
+    <ImageView
+        android:layout_width="470dp"
+        android:layout_height="1000dp"
+        android:src="@drawable/main_page_background"/>
+
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="425dp"
         android:layout_height="170dp"
         android:src="@drawable/bodybuilding_forum_logo"/>
-
+/*********************************************************/
     <Button
         android:id="@+id/button_first"
         android:layout_width="wrap_content"
