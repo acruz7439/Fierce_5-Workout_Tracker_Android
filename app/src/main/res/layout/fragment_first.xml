@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".FirstFragment">
+    tools:context=".FirstFragment"
+    tools:ignore="ExtraText">
 
     <TextView
         android:id="@+id/textview_first"
@@ -19,7 +20,6 @@
 
     /*The below instance creates the main logo page for the app.
     (Bodybuilding Forum's Logo to be precise.)*/
-
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="425dp"
